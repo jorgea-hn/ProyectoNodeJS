@@ -7,3 +7,5 @@ npm i -D -> para instalar modulos solo para desarrollo
 npm i -D typescript ts-node @types/express @types/node nodemon
 
 npx tsc --init -> para crear un archivo de config 
+npm i pg --save -> instalar postgres
+npm i dotenv --save ->libreria

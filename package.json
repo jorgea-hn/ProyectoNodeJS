@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev":"nodemon src/main.ts --exec ts-node"
+    "start:dev": "nodemon src/main.ts --exec ts-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^3.11.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql": "^2.18.1",
+    "pg": "^8.8.0",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^1.1.1",
     "typeorm": "^0.3.11"
